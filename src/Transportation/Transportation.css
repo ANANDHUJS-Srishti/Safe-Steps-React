@@ -1,0 +1,16 @@
+.adapto{
+    height: 650px;
+    width: 100%;    
+
+}
+
+.flaoting-div{
+    position: absolute;
+    top: 320px;
+    background-color: rgba(0,0,0,.4);
+  padding: 20px;
+}
+.float-text-one{
+    color: white;
+    font-size: 30px;
+}
