@@ -8,12 +8,14 @@ import Transportation from './Transportation/Transportation'
 import MedicineSupport from './MedicineSupport/MedicineSupport'
 import Login from './Login/Login'
 import Registration from './RegistrationPage/Registration'
+import Modail from './Modail/Modail'
 function Router() {
   return (
     <div>
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<><Navbar/><HomePage/><Footer/></>}/>
+        <Route path='/Modail' element={<Modail/>}/>
         <Route path='/personalcare' element={<><Navbar/><PersonalCare/><Footer/></>}/>
         <Route path='/transportation'element={<><Navbar/><Transportation/><Footer/></>}/>
         <Route path='/medicine' element={<><Navbar/><MedicineSupport/><Footer/></>}/>
